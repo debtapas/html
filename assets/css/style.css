@@ -1,0 +1,125 @@
+.section-title h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+section {
+    padding-top: 100px;
+ }
+ .tabs-style-03 .icon-tabs .nav-tabs>li>a {
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.tabs-style-03 .icon-tabs .nav-tabs>li {
+    margin-bottom: 24px;
+}
+.tabs-style-03 .icon-tabs .nav-tabs>li>a i {
+    line-height: 12px;
+    font-size: 20px;
+}
+.tabs-style-03 .icon-tabs .nav-tabs>li>a {
+	border: 2px solid #999999;
+}
+i:before {
+    margin-left: -10px;
+}
+.nav>li>a {
+    padding: 4px;
+}
+section.lg-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.text-bottom-line-sm::after {
+    height: 6px;
+}
+.cardo-font {
+    font-style: italic;
+}
+nav.navbar.bootsnav ul.nav > li > a.active {
+    background-color: #0000003d;
+}
+a {
+    text-decoration: none;
+    color: #f6be00;
+}
+.social-icon{
+
+}
+.social-icon li{
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+}
+.social-icon li i:before{
+    font-size: 28px;
+    display: table-cell;
+    color: #6d6871;
+}
+.logo-footer {
+    display: contents;
+}
+.logo-footer img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.our-process-style-03 .icon {
+    display: table;
+}
+.home-slider {
+    height: 70vh;
+    background: white;
+}
+.img-box input, .img-box textarea, .img-box select {
+    border: 1px solid #999999;
+    color: #777;
+}
+section.map {
+    padding-top: 78px;
+    padding-bottom: 0;
+    background: #fff;
+}
+footer h5.aside-title {
+    color: #fff;
+}
+.xs-icon i:before {
+    margin-left: 0;
+    font-size: 22px;
+}
+/*~~~~~~~~~~~~~~~~~~ Responsive CSS ~~~~~~~~~~~~~~~~~~~~~*/
+@media (min-width: 1024px){
+    nav.navbar.bootsnav.navbar-transparent.white,
+    nav.navbar.bootsnav.navbar-transparent.dark {
+        background: rgb(255 255 255 / 35%)
+    }
+    ul.nav > li > a{
+        color: #000 !important;
+    }
+}
+@media (min-width: 767px) and (max-width: 991px){
+	.tabs-style-03 .icon-tabs .nav-tabs>li {
+    	width: 14%;
+    }
+   .tabs-style-03 .icon-tabs .nav-tabs>li:after {
+    	left: 86%;
+    	width: 16px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 766px){
+	.tabs-style-03 .icon-tabs .nav-tabs>li {
+	    width: 14%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+	.tabs-style-03 .icon-tabs .nav-tabs>li{
+	    width: 14%;
+	}
+	.tabs-style-03 .icon-tabs .nav-tabs>li:after{
+	    left: 83%;
+	    width: 35%;
+	}
+}
